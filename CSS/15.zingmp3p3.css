@@ -1,0 +1,27 @@
+.album-square{
+    width: 128px;
+    height: 128px;
+    background-color: #ddd;
+    background-image: url('https://anh.24h.com.vn/upload/1-2017/images/2017-01-17/1484617785-148456219038403-anh-1.jpg');
+     background-size: cover;
+     background-position: center;
+     font-family: Arial,sans-serif;
+  }
+  .album-square .overlay{
+
+     height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*opacity: 0;
+  display: none;
+
+  visibility: hidden;
+    */
+  opacity: 0;
+  }
+  .album-square:hover .overlay{
+     opacity: 1;
+  }
+  

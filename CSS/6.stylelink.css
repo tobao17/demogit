@@ -1,0 +1,22 @@
+/*
+co 4 kieu 
+ link:chua click vao 
+ visited:da click vao
+ hover: tro chuuot vao 
+ active:tro chuot vao ma chua nhat ra 
+
+ */
+ .clickdemo:link{
+color: violet;
+text-decoration: none;
+ }
+ .clickdemo:hover{
+     text-decoration: underline;
+ }
+.clickdemo:hover{
+    color: red;
+}
+ .clickdemo:active
+ {
+     color: red;
+ }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- cach cai live-server:npm -g install live-server ,cach dung:thay doi html css truc tiep khong can load lai trang-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./2.liveserver.css">
+</head>
+<body>
+    <input type="text"  id="txtnhap">
+    <button id=addnhap class="aaa">ADD</button>
+    <ul id=danhsachkhongdanhso class='danhsachkhongdanhso'>
+    </ul>
+    <script>
+        var keystogare='key';
+     var hocsinh=["take shower","go to bed","brush teeth"];
+      //var hocsinh=JSON.parse(localStorage.getItem(keystogare));//chuyen JSON VE LAI OJIECT
+       
+      
+        var btnnhap=document.getElementById('addnhap');
+       btnnhap.addEventListener('click',themvao);
+       var txtnhapvao=document.getElementById("txtnhap");
+      
+        txtnhapvao.addEventListener("change",updatesessionstogare);//ham sesion stogare
+        function updatesessionstogare ()
+        {
+            sessionStorage.setItem(keystogare,txtnhapvao.value);
+        }
+        txtnhapvao.value=sessionStorage.getItem(keystogare);
+        function themvao()
+        {
+            hocsinh.push(txtnhapvao.value);
+            render();
+          //  txtnhapvao.value="";
+            txtnhapvao.value='';
+            txtnhapvao.focus();
+            localStorage.setItem(keystogare,JSON.stringify(hocsinh));
+        }
+        hocsinh.push
+        function render()
+        {
+            var danhsach=document.getElementById('danhsachkhongdanhso');
+            var danhsach2=   hocsinh.map(function(a){
+            return "<li>"+a+"</li>";
+        })
+        danhsach.innerHTML=danhsach2.join('');
+        }
+        
+        render();
+        
+    </script>
+</body>
+
+</html>

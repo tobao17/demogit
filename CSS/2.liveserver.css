@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+.danhsachkhongdanhso{
+    color: rgb(128, 45, 206);
+    font-weight: bold;
+    font-family: 'mali';
+    padding-left: 50px;
+    /* padding x,y ten duoi la x trai phai la y  */
+/* padding xyz x la tren y la ben trai va ben phai z la duoi */
+    /* padding x y z t  theo chieu kim dong ho tinh tu 12h*/
+}
+#addnhap{
+    color: brown;
+}

@@ -1,0 +1,61 @@
+.demomargin
+{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 200px;
+    color: white;
+
+    /* border-left-width: 100px; */
+    /* border-right-width: 0px; */
+    /* co the chan huong cho boder .. */
+   /* // border-width: 1px; */
+   /* viet ngan gon */
+   border-width: 1px;
+   margin-bottom: 10px;
+   font-size: 100px;
+    border-style: solid;
+    border-color: rgb(30, 151, 19);
+    background-color: rgb(43, 139, 18)
+
+    /* background-color: */
+}
+#tranparent
+{
+    /* background-color: transparent; */
+    /* tim hieu ve css gradient */
+    /* https://cssgradient.io/ */
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+background-image: url(./4.hinhdemo.jpg);
+background-size: 20%;
+height: 100px;
+background-repeat: repeat-x;
+background-size: cover; 
+/* backgroup-size co the dung contain */
+/* co 2 cach de anh lam trung tam.background position co the truyen vao x,y */
+/* background-position: center;  */
+background-position: 0 -500px;
+
+
+}
+body{
+    background-color: thistle;
+}
+#attachment
+{
+background-image: url(./4.hinhdemo.jpg);
+background-size: 20%;
+height: 100px;
+background-position: +200,0px;
+background-repeat: repeat-x;
+background-size: cover; 
+/* backgroup-size co the dung contain */
+/* co 2 cach de anh lam trung tam.background position co the truyen vao x,y */
+/* background-position: center;  */
+background-position: 0 -500px;
+background-attachment: fixed;
+}
+#aaa{
+    color: aqua;
+}

@@ -1,0 +1,41 @@
+/* flexbox phai dat cho then cha la flex */
+.container{
+    display: flex;
+     flex-direction: row; 
+    /* justify-content:space-around; */
+    /* justify-content:flex-end; */
+    justify-content: flex-start;
+    /* justify-content: flex-end; */
+    /* flex-direction: column; */
+    /* height: 500px; */
+    
+    /* justify-content: center; */
+    /* align-items: flex-end ; */
+    
+}
+/* 
+disply:flex
+flex-direction
+justify-content:can chinh theo huong flex-direction
+align-item:can chinh theo huong vuong goc flex-direction
+
+ */
+ .child-1{
+     background-color: red;
+     flex-basis: 150px;
+     flex-grow: 1;
+ }
+ .child-2{
+     background-color: green;
+     flex-basis: 200px;
+     flex-grow: 1;
+     order:1;  
+     /* order goi thu tu lam layout nho len truoc mac dinh la 0 */
+ }
+ .child-3{
+     background-color: blue;
+     flex-basis: 150px;
+     flex-grow: 1;
+     /* flex-shrink: 0: de khong bi cat di khi khong du kich thuoc ngoai */
+ }
+ 

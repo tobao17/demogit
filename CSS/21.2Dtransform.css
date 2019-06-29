@@ -1,0 +1,11 @@
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    transform: translate(30px,60px);
+    /* transform duy chuyen element */
+    transform: scale(0.5);
+    /* transform bien to thu nho element */
+    transform: rotate(30deg);
+    /* rotate: xoay theo do  */
+}

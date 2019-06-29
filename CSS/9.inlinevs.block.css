@@ -1,0 +1,10 @@
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+    color: blue;
+}
+/* block se xuong dong 
+inline:de nam chung mot dong voi cac inline khac */
+/* trong the inline thay doi kich thuoc,margin song co hieu luc */

@@ -1,0 +1,39 @@
+/* .container{
+    display: flex;
+} sap xep theo chieu doc */
+.box{
+    width:100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+    /* position:fixed;
+    right: 10px;  dung trong luc cuon*/
+}
+.green{
+    background-color: green;
+    /* position: relative;
+    top:20px; */
+}
+.blue{
+    background-color: blue;
+}
+.container{
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+}
+.inner{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.child{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* chu y absolute se chay toi cha co relative */
+    bottom: 0;
+}

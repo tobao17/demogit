@@ -1,0 +1,21 @@
+/* https://placeholder.com/ lay anh khi khong co anh thuc */
+.album-cover{
+    width: 128px;
+    height: 128px;
+    background-color: #ddd;
+    background-image: url('https://anh.24h.com.vn/upload/1-2017/images/2017-01-17/1484617785-148456219038403-anh-1.jpg');
+     background-size: cover;
+     background-position: center;
+     font-family: Arial,sans-serif;
+  }
+  .album-cover .overlay{
+   
+    background:linear-gradient(0deg, rgba(17,16,2,1) 0%, rgba(22,9,121,1) 0%, rgba(18,7,101,1) 0%, rgba(14,5,84,1) 0%, rgba(9,3,65,1) 0%, rgba(4,1,46,1) 0%, rgba(22,18,89,0.8) 0%, rgba(25,29,94,1) 0%, rgba(19,21,70,1) 0%, rgba(7,16,27,0.6671043417366946) 0%, rgba(12,28,39,1) 0%, rgba(11,24,35,1) 0%, rgba(11,25,36,0.7595413165266106) 0%, rgba(6,5,29,0.8603816526610644) 0%, rgba(5,15,18,0.8939950980392157) 0%, rgba(17,31,35,1) 0%, rgba(10,20,23,1) 0%, rgba(104,146,157,0.14329481792717091) 100%, rgba(51,121,138,1) 100%, rgba(251,244,251,0) 100%);
+     height:100%;
+  color:#fff;
+  display: flex;
+  align-items: flex-end;
+  padding: 8px;
+  box-sizing: border-box; 
+  }
+  
