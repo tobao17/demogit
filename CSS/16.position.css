@@ -13,6 +13,7 @@
 .green{
     background-color: green;
     /* position: relative;
+    dich chuyen tuong doi tai cho 
     top:20px; */
 }
 .blue{
@@ -22,6 +23,8 @@
     background-color: aquamarine;
     height: 300px;
     width: 300px;
+    background-size: cover;
+    background-position: center;
 }
 .inner{
     background-color: blueviolet;
